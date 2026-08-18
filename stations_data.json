@@ -1,1080 +1,56 @@
 {
   "totals": {
-    "pop500_total": 281807,
-    "pop800_total": 408601
+    "pop500_total": 279811,
+    "pop800_total": 407447
   },
   "stations": [
-    {
-      "name": "Barriere Saint-Genes",
-      "type": "TRAM",
-      "lat": 44.8208,
-      "lng": -0.5831,
-      "pop500": 6297,
-      "pop800": 15789
-    },
-    {
-      "name": "La Cite Du Vin",
-      "type": "TRAM",
-      "lat": 44.8607,
-      "lng": -0.5532,
-      "pop500": 2954,
-      "pop800": 8463
-    },
-    {
-      "name": "Belcier",
-      "type": "TRAM",
-      "lat": 44.8226,
-      "lng": -0.5521,
-      "pop500": 2653,
-      "pop800": 7824
-    },
-    {
-      "name": "Berges Du Lac",
-      "type": "TRAM",
-      "lat": 44.8791,
-      "lng": -0.5708,
-      "pop500": 4607,
-      "pop800": 7919
-    },
-    {
-      "name": "Frankton",
-      "type": "TRAM",
-      "lat": 44.9071,
-      "lng": -0.619,
-      "pop500": 1632,
-      "pop800": 3235
-    },
-    {
-      "name": "Bois Fleuri",
-      "type": "TRAM",
-      "lat": 44.8761,
-      "lng": -0.5193,
-      "pop500": 4442,
-      "pop800": 10696
-    },
-    {
-      "name": "Brandenburg",
-      "type": "TRAM",
-      "lat": 44.8745,
-      "lng": -0.5457,
-      "pop500": 3477,
-      "pop800": 6834
-    },
-    {
-      "name": "Buttiniere",
-      "type": "TRAM",
-      "lat": 44.8641,
-      "lng": -0.5249,
-      "pop500": 3462,
-      "pop800": 8509
-    },
-    {
-      "name": "Calais Centujean",
-      "type": "TRAM",
-      "lat": 44.8029,
-      "lng": -0.552,
-      "pop500": 3642,
-      "pop800": 8984
-    },
-    {
-      "name": "Calais Centujean",
-      "type": "TRAM",
-      "lat": 44.8029,
-      "lng": -0.552,
-      "pop500": 3658,
-      "pop800": 8961
-    },
-    {
-      "name": "Camille Godard",
-      "type": "TRAM",
-      "lat": 44.8546,
-      "lng": -0.5745,
-      "pop500": 9168,
-      "pop800": 19979
-    },
-    {
-      "name": "Camponac Mediatheque",
-      "type": "TRAM",
-      "lat": 44.8003,
-      "lng": -0.6348,
-      "pop500": 2176,
-      "pop800": 6338
-    },
-    {
-      "name": "Carnot-Mairie De Cenon",
-      "type": "TRAM",
-      "lat": 44.8578,
-      "lng": -0.5315,
-      "pop500": 3536,
-      "pop800": 9178
-    },
-    {
-      "name": "Carnot-Mairie De Cenon",
-      "type": "TRAM",
-      "lat": 44.8578,
-      "lng": -0.5316,
-      "pop500": 3560,
-      "pop800": 9083
-    },
-    {
-      "name": "Carriet",
-      "type": "TRAM",
-      "lat": 44.8822,
-      "lng": -0.5238,
-      "pop500": 3803,
-      "pop800": 6894
-    },
-    {
-      "name": "Carriet",
-      "type": "TRAM",
-      "lat": 44.8822,
-      "lng": -0.5239,
-      "pop500": 3803,
-      "pop800": 6889
-    },
-    {
-      "name": "Cenon Gare",
-      "type": "TRAM",
-      "lat": 44.8559,
-      "lng": -0.5345,
-      "pop500": 4783,
-      "pop800": 7835
-    },
-    {
-      "name": "Cenon Gare",
-      "type": "TRAM",
-      "lat": 44.8559,
-      "lng": -0.5343,
-      "pop500": 4803,
-      "pop800": 7823
-    },
-    {
-      "name": "Cap Metiers",
-      "type": "TRAM",
-      "lat": 44.7892,
-      "lng": -0.6517,
-      "pop500": 915,
-      "pop800": 3467
-    },
-    {
-      "name": "Cap Metiers",
-      "type": "TRAM",
-      "lat": 44.7893,
-      "lng": -0.6516,
-      "pop500": 924,
-      "pop800": 3535
-    },
-    {
-      "name": "Claveau",
-      "type": "TRAM",
-      "lat": 44.8779,
-      "lng": -0.5439,
-      "pop500": 3230,
-      "pop800": 5688
-    },
-    {
-      "name": "Cours Du Medoc",
-      "type": "TRAM",
-      "lat": 44.8559,
-      "lng": -0.5632,
-      "pop500": 4667,
-      "pop800": 13008
-    },
-    {
-      "name": "Talence Centre-Forum",
-      "type": "TRAM",
-      "lat": 44.812,
-      "lng": -0.591,
-      "pop500": 3498,
-      "pop800": 9834
-    },
-    {
-      "name": "Galin",
-      "type": "TRAM",
-      "lat": 44.8498,
-      "lng": -0.5444,
-      "pop500": 4210,
-      "pop800": 9029
-    },
-    {
-      "name": "Gare De Pessac Alouette",
-      "type": "TRAM",
-      "lat": 44.7932,
-      "lng": -0.6577,
-      "pop500": 1421,
-      "pop800": 4111
-    },
-    {
-      "name": "Gavinies",
-      "type": "TRAM",
-      "lat": 44.8331,
-      "lng": -0.5931,
-      "pop500": 4506,
-      "pop800": 13506
-    },
-    {
-      "name": "Gavinies",
-      "type": "TRAM",
-      "lat": 44.8331,
-      "lng": -0.5931,
-      "pop500": 4489,
-      "pop800": 13489
-    },
-    {
-      "name": "Gravieres",
-      "type": "TRAM",
-      "lat": 44.8728,
-      "lng": -0.5202,
-      "pop500": 7131,
-      "pop800": 12364
-    },
-    {
-      "name": "Hopital Pellegrin",
-      "type": "TRAM",
-      "lat": 44.8302,
-      "lng": -0.6046,
-      "pop500": 3705,
-      "pop800": 9205
-    },
-    {
-      "name": "Hotel De Police",
-      "type": "TRAM",
-      "lat": 44.8349,
-      "lng": -0.5888,
-      "pop500": 4875,
-      "pop800": 14849
-    },
-    {
-      "name": "Hotel De Ville",
-      "type": "TRAM",
-      "lat": 44.8373,
-      "lng": -0.5771,
-      "pop500": 8505,
-      "pop800": 21917
-    },
-    {
-      "name": "Hotel De Ville",
-      "type": "TRAM",
-      "lat": 44.8377,
-      "lng": -0.5764,
-      "pop500": 9042,
-      "pop800": 21687
-    },
-    {
-      "name": "Iris",
-      "type": "TRAM",
-      "lat": 44.8685,
-      "lng": -0.5226,
-      "pop500": 4197,
-      "pop800": 10483
-    },
-    {
-      "name": "Jardin Botanique",
-      "type": "TRAM",
-      "lat": 44.843,
-      "lng": -0.5554,
-      "pop500": 5277,
-      "pop800": 10092
-    },
-    {
-      "name": "Jardin Botanique",
-      "type": "TRAM",
-      "lat": 44.843,
-      "lng": -0.5553,
-      "pop500": 5263,
-      "pop800": 10130
-    },
-    {
-      "name": "Jardin Public",
-      "type": "TRAM",
-      "lat": 44.8482,
-      "lng": -0.5754,
-      "pop500": 5384,
-      "pop800": 15615
-    },
-    {
-      "name": "Jean Jaures",
-      "type": "TRAM",
-      "lat": 44.8538,
-      "lng": -0.5377,
-      "pop500": 4760,
-      "pop800": 8864
-    },
-    {
-      "name": "Jean Zay",
-      "type": "TRAM",
-      "lat": 44.8541,
-      "lng": -0.5132,
-      "pop500": 3702,
-      "pop800": 9641
-    },
-    {
-      "name": "La Gardette - Bassens - Carbon-Blanc",
-      "type": "TRAM",
-      "lat": 44.8877,
-      "lng": -0.5173,
-      "pop500": 1783,
-      "pop800": 4667
-    },
-    {
-      "name": "La Maregue",
-      "type": "TRAM",
-      "lat": 44.8507,
-      "lng": -0.5089,
-      "pop500": 4194,
-      "pop800": 8961
-    },
-    {
-      "name": "La Vache",
-      "type": "TRAM",
-      "lat": 44.8721,
-      "lng": -0.5905,
-      "pop500": 2034,
-      "pop800": 7102
-    },
-    {
-      "name": "Lauriers",
-      "type": "TRAM",
-      "lat": 44.8791,
-      "lng": -0.5179,
-      "pop500": 2545,
-      "pop800": 7582
-    },
-    {
-      "name": "Les Ecus",
-      "type": "TRAM",
-      "lat": 44.8689,
-      "lng": -0.6089,
-      "pop500": 4572,
-      "pop800": 9884
-    },
-    {
-      "name": "Les Hangars",
-      "type": "TRAM",
-      "lat": 44.858,
-      "lng": -0.5588,
-      "pop500": 4977,
-      "pop800": 10797
-    },
-    {
-      "name": "Les Hangars",
-      "type": "TRAM",
-      "lat": 44.858,
-      "lng": -0.5589,
-      "pop500": 5007,
-      "pop800": 10864
-    },
-    {
-      "name": "Les Pins",
-      "type": "TRAM",
-      "lat": 44.8569,
-      "lng": -0.6598,
-      "pop500": 2578,
-      "pop800": 5818
-    },
-    {
-      "name": "Les Sources",
-      "type": "TRAM",
-      "lat": 44.8879,
-      "lng": -0.6598,
-      "pop500": 1069,
-      "pop800": 3708
-    },
-    {
-      "name": "Les Sources",
-      "type": "TRAM",
-      "lat": 44.8882,
-      "lng": -0.6601,
-      "pop500": 951,
-      "pop800": 3539
-    },
-    {
-      "name": "Mairie De Lormont",
-      "type": "TRAM",
-      "lat": 44.8799,
-      "lng": -0.5235,
-      "pop500": 3697,
-      "pop800": 8622
-    },
-    {
-      "name": "Hotel De Ville Merignac",
-      "type": "TRAM",
-      "lat": 44.8442,
-      "lng": -0.6582,
-      "pop500": 3033,
-      "pop800": 9857
-    },
-    {
-      "name": "Hotel De Ville Merignac",
-      "type": "TRAM",
-      "lat": 44.8442,
-      "lng": -0.6583,
-      "pop500": 3008,
-      "pop800": 9853
-    },
-    {
-      "name": "Meriadeck",
-      "type": "TRAM",
-      "lat": 44.8381,
-      "lng": -0.5842,
-      "pop500": 5700,
-      "pop800": 16967
-    },
-    {
-      "name": "Meriadeck",
-      "type": "TRAM",
-      "lat": 44.8382,
-      "lng": -0.5843,
-      "pop500": 5697,
-      "pop800": 16923
-    },
-    {
-      "name": "Montaigne-Montesquieu",
-      "type": "TRAM",
-      "lat": 44.7968,
-      "lng": -0.6174,
-      "pop500": 361,
-      "pop800": 1954
-    },
-    {
-      "name": "Stade Musard",
-      "type": "TRAM",
-      "lat": 44.808,
-      "lng": -0.5515,
-      "pop500": 3697,
-      "pop800": 9803
-    },
-    {
-      "name": "Merignac Soleil",
-      "type": "TRAM",
-      "lat": 44.8312,
-      "lng": -0.6567,
-      "pop500": 1062,
-      "pop800": 4230
-    },
-    {
-      "name": "Caroline Aigle",
-      "type": "TRAM",
-      "lat": 44.8352,
-      "lng": -0.6896,
-      "pop500": 5,
-      "pop800": 31
-    },
-    {
-      "name": "Quarante Journaux",
-      "type": "TRAM",
-      "lat": 44.8831,
-      "lng": -0.5703,
-      "pop500": 2918,
-      "pop800": 4492
-    },
-    {
-      "name": "New York",
-      "type": "TRAM",
-      "lat": 44.8711,
-      "lng": -0.5473,
-      "pop500": 3007,
-      "pop800": 8493
-    },
-    {
-      "name": "Palmer",
-      "type": "TRAM",
-      "lat": 44.8622,
-      "lng": -0.5197,
-      "pop500": 5301,
-      "pop800": 9572
-    },
-    {
-      "name": "Parc Des Expositions - Stade",
-      "type": "TRAM",
-      "lat": 44.8933,
-      "lng": -0.5658,
-      "pop500": 0,
-      "pop800": 1
-    },
-    {
-      "name": "Peixotto",
-      "type": "TRAM",
-      "lat": 44.8073,
-      "lng": -0.5926,
-      "pop500": 3566,
-      "pop800": 8478
-    },
-    {
-      "name": "Peixotto",
-      "type": "TRAM",
-      "lat": 44.8072,
-      "lng": -0.5927,
-      "pop500": 3532,
-      "pop800": 8435
-    },
-    {
-      "name": "Pelletan",
-      "type": "TRAM",
-      "lat": 44.8587,
-      "lng": -0.5197,
-      "pop500": 5442,
-      "pop800": 10418
-    },
-    {
-      "name": "Peychotte",
-      "type": "TRAM",
-      "lat": 44.8266,
-      "lng": -0.6199,
-      "pop500": 4807,
-      "pop800": 10142
-    },
-    {
-      "name": "Place Du Palais",
-      "type": "TRAM",
-      "lat": 44.8379,
-      "lng": -0.5693,
-      "pop500": 9369,
-      "pop800": 18507
-    },
-    {
-      "name": "Place Paul Doumer",
-      "type": "TRAM",
-      "lat": 44.852,
-      "lng": -0.5741,
-      "pop500": 7789,
-      "pop800": 16388
-    },
-    {
-      "name": "Place Ravezies - Le Bouscat",
-      "type": "TRAM",
-      "lat": 44.8671,
-      "lng": -0.5758,
-      "pop500": 2852,
-      "pop800": 11810
-    },
-    {
-      "name": "Porte De Bourgogne",
-      "type": "TRAM",
-      "lat": 44.8372,
-      "lng": -0.5663,
-      "pop500": 7374,
-      "pop800": 17798
-    },
-    {
-      "name": "Porte De Bourgogne",
-      "type": "TRAM",
-      "lat": 44.8373,
-      "lng": -0.5663,
-      "pop500": 7338,
-      "pop800": 17818
-    },
-    {
-      "name": "Porte De Bourgogne",
-      "type": "TRAM",
-      "lat": 44.8371,
-      "lng": -0.5664,
-      "pop500": 7524,
-      "pop800": 17856
-    },
-    {
-      "name": "Saige",
-      "type": "TRAM",
-      "lat": 44.794,
-      "lng": -0.6286,
-      "pop500": 3943,
-      "pop800": 5739
-    },
-    {
-      "name": "Saint-Augustin",
-      "type": "TRAM",
-      "lat": 44.8288,
-      "lng": -0.6103,
-      "pop500": 3412,
-      "pop800": 9913
-    },
-    {
-      "name": "Saint-Nicolas",
-      "type": "TRAM",
-      "lat": 44.829,
-      "lng": -0.574,
-      "pop500": 9349,
-      "pop800": 22022
-    },
-    {
-      "name": "Saint-Nicolas",
-      "type": "TRAM",
-      "lat": 44.829,
-      "lng": -0.574,
-      "pop500": 9376,
-      "pop800": 22069
-    },
-    {
-      "name": "Stalingrad",
-      "type": "TRAM",
-      "lat": 44.8403,
-      "lng": -0.5597,
-      "pop500": 3977,
-      "pop800": 9078
-    },
-    {
-      "name": "France Alouette",
-      "type": "TRAM",
-      "lat": 44.7986,
-      "lng": -0.6631,
-      "pop500": 1650,
-      "pop800": 4945
-    },
-    {
-      "name": "Le Haillan Rostand",
-      "type": "TRAM",
-      "lat": 44.8585,
-      "lng": -0.6683,
-      "pop500": 835,
-      "pop800": 1906
-    },
-    {
-      "name": "Pessac Centre",
-      "type": "TRAM",
-      "lat": 44.8043,
-      "lng": -0.6325,
-      "pop500": 2701,
-      "pop800": 6709
-    },
-    {
-      "name": "Pin Galant",
-      "type": "TRAM",
-      "lat": 44.8442,
-      "lng": -0.6513,
-      "pop500": 4050,
-      "pop800": 12664
-    },
-    {
-      "name": "Quinconces Fleuve",
-      "type": "TRAM",
-      "lat": 44.8445,
-      "lng": -0.5707,
-      "pop500": 2659,
-      "pop800": 12415
-    },
-    {
-      "name": "Carle Vernet",
-      "type": "TRAM",
-      "lat": 44.8199,
-      "lng": -0.5504,
-      "pop500": 3703,
-      "pop800": 7889
-    },
-    {
-      "name": "Lycee Vaclav Havel",
-      "type": "TRAM",
-      "lat": 44.7866,
-      "lng": -0.5662,
-      "pop500": 3554,
-      "pop800": 7597
-    },
-    {
-      "name": "La Belle Rose",
-      "type": "TRAM",
-      "lat": 44.8111,
-      "lng": -0.5513,
-      "pop500": 4077,
-      "pop800": 10083
-    },
-    {
-      "name": "France Alouette",
-      "type": "TRAM",
-      "lat": 44.7987,
-      "lng": -0.6631,
-      "pop500": 1643,
-      "pop800": 4955
-    },
-    {
-      "name": "Villenave Centre-Pont De La Maye",
-      "type": "TRAM",
-      "lat": 44.782,
-      "lng": -0.5662,
-      "pop500": 3036,
-      "pop800": 6926
-    },
-    {
-      "name": "Villenave Pyrénées",
-      "type": "TRAM",
-      "lat": 44.7743,
-      "lng": -0.5649,
-      "pop500": 413,
-      "pop800": 2671
-    },
-    {
-      "name": "Fondaudege - Museum",
-      "type": "TRAM",
-      "lat": 44.8468,
-      "lng": -0.5803,
-      "pop500": 7390,
-      "pop800": 18724
-    },
-    {
-      "name": "Simone Veil",
-      "type": "TRAM",
-      "lat": 44.8798,
-      "lng": -0.637,
-      "pop500": 3074,
-      "pop800": 5573
-    },
-    {
-      "name": "Fondaudege - Museum",
-      "type": "TRAM",
-      "lat": 44.8465,
-      "lng": -0.5799,
-      "pop500": 7158,
-      "pop800": 18558
-    },
-    {
-      "name": "Hippodrome",
-      "type": "TRAM",
-      "lat": 44.8739,
-      "lng": -0.6284,
-      "pop500": 1969,
-      "pop800": 4968
-    },
-    {
-      "name": "Cantinolle",
-      "type": "TRAM",
-      "lat": 44.8917,
-      "lng": -0.6673,
-      "pop500": 260,
-      "pop800": 1182
-    },
-    {
-      "name": "Cadera-Issartier",
-      "type": "TRAM",
-      "lat": 44.8357,
-      "lng": -0.6819,
-      "pop500": 10,
-      "pop800": 113
-    },
-    {
-      "name": "Merignac Aeroport",
-      "type": "TRAM",
-      "lat": 44.8306,
-      "lng": -0.7009,
-      "pop500": 0,
-      "pop800": 0
-    },
-    {
-      "name": "Cadera-Issartier",
-      "type": "TRAM",
-      "lat": 44.8357,
-      "lng": -0.682,
-      "pop500": 10,
-      "pop800": 114
-    },
-    {
-      "name": "Merignac Aeroport",
-      "type": "TRAM",
-      "lat": 44.8306,
-      "lng": -0.7009,
-      "pop500": 0,
-      "pop800": 0
-    },
-    {
-      "name": "Sainte-Croix",
-      "type": "TRAM",
-      "lat": 44.8318,
-      "lng": -0.5594,
-      "pop500": 4005,
-      "pop800": 11383
-    },
-    {
-      "name": "Saint-Bruno - Hotel De Region",
-      "type": "TRAM",
-      "lat": 44.8374,
-      "lng": -0.5892,
-      "pop500": 4531,
-      "pop800": 14947
-    },
-    {
-      "name": "Stade Chaban Delmas",
-      "type": "TRAM",
-      "lat": 44.8312,
-      "lng": -0.5991,
-      "pop500": 4380,
-      "pop800": 10770
-    },
-    {
-      "name": "Stalingrad",
-      "type": "TRAM",
-      "lat": 44.8403,
-      "lng": -0.5598,
-      "pop500": 3967,
-      "pop800": 9137
-    },
-    {
-      "name": "Tauzia",
-      "type": "TRAM",
-      "lat": 44.8291,
-      "lng": -0.5585,
-      "pop500": 4854,
-      "pop800": 11858
-    },
-    {
-      "name": "Thiers-Benauge",
-      "type": "TRAM",
-      "lat": 44.8458,
-      "lng": -0.5508,
-      "pop500": 3990,
-      "pop800": 10435
-    },
-    {
-      "name": "Unitec",
-      "type": "TRAM",
-      "lat": 44.7963,
-      "lng": -0.6216,
-      "pop500": 477,
-      "pop800": 3339
-    },
-    {
-      "name": "Merignac Centre",
-      "type": "TRAM",
-      "lat": 44.8415,
-      "lng": -0.6468,
-      "pop500": 5330,
-      "pop800": 10882
-    },
-    {
-      "name": "La Belle Rose",
-      "type": "TRAM",
-      "lat": 44.8112,
-      "lng": -0.5512,
-      "pop500": 4090,
-      "pop800": 10090
-    },
-    {
-      "name": "La Gardette - Bassens - Carbon-Blanc",
-      "type": "TRAM",
-      "lat": 44.8877,
-      "lng": -0.5173,
-      "pop500": 1768,
-      "pop800": 4661
-    },
-    {
-      "name": "Lycee Vaclav Havel",
-      "type": "TRAM",
-      "lat": 44.7866,
-      "lng": -0.5663,
-      "pop500": 3560,
-      "pop800": 7613
-    },
-    {
-      "name": "Parc Des Expositions - Nouveau Stade",
-      "type": "TRAM",
-      "lat": 44.8933,
-      "lng": -0.566,
-      "pop500": 0,
-      "pop800": 1
-    },
-    {
-      "name": "Gare De Blanquefort",
-      "type": "TRAM",
-      "lat": 44.9168,
-      "lng": -0.6236,
-      "pop500": 734,
-      "pop800": 2028
-    },
-    {
-      "name": "Champ De Courses - Treulon",
-      "type": "TRAM",
-      "lat": 44.8765,
-      "lng": -0.6219,
-      "pop500": 2616,
-      "pop800": 5773
-    },
-    {
-      "name": "Simone Veil",
-      "type": "TRAM",
-      "lat": 44.8795,
-      "lng": -0.6365,
-      "pop500": 3077,
-      "pop800": 5659
-    },
-    {
-      "name": "Croix De Seguey",
-      "type": "TRAM",
-      "lat": 44.8499,
-      "lng": -0.5856,
-      "pop500": 8435,
-      "pop800": 19751
-    },
-    {
-      "name": "Alfred De Vigny",
-      "type": "TRAM",
-      "lat": 44.8302,
-      "lng": -0.6339,
-      "pop500": 2621,
-      "pop800": 6011
-    },
     {
       "name": "Alfred De Vigny",
       "type": "TRAM",
       "lat": 44.8302,
       "lng": -0.634,
-      "pop500": 2613,
-      "pop800": 6003
+      "pop500": 2617,
+      "pop800": 6007
     },
     {
       "name": "Arts & Metiers",
       "type": "TRAM",
       "lat": 44.806,
       "lng": -0.6023,
-      "pop500": 684,
-      "pop800": 2969
+      "pop500": 682,
+      "pop800": 2961
     },
     {
-      "name": "Palais De Justice",
+      "name": "Ausone",
       "type": "TRAM",
-      "lat": 44.8363,
-      "lng": -0.5815,
-      "pop500": 6552,
-      "pop800": 19001
-    },
-    {
-      "name": "Palais De Justice",
-      "type": "TRAM",
-      "lat": 44.8363,
-      "lng": -0.5815,
-      "pop500": 6537,
-      "pop800": 18967
-    },
-    {
-      "name": "Parc De Mussonville",
-      "type": "TRAM",
-      "lat": 44.794,
-      "lng": -0.5596,
-      "pop500": 2124,
-      "pop800": 5502
-    },
-    {
-      "name": "Pessac Centre",
-      "type": "TRAM",
-      "lat": 44.8043,
-      "lng": -0.6325,
-      "pop500": 2702,
-      "pop800": 6715
-    },
-    {
-      "name": "Gare De Pessac Alouette",
-      "type": "TRAM",
-      "lat": 44.7931,
-      "lng": -0.6578,
-      "pop500": 1412,
-      "pop800": 4073
-    },
-    {
-      "name": "Pierre Mendes France",
-      "type": "TRAM",
-      "lat": 44.8301,
-      "lng": -0.6399,
-      "pop500": 1779,
-      "pop800": 5465
-    },
-    {
-      "name": "Place De La Bourse",
-      "type": "TRAM",
-      "lat": 44.8415,
-      "lng": -0.5697,
-      "pop500": 5200,
-      "pop800": 14719
-    },
-    {
-      "name": "Place De La Bourse",
-      "type": "TRAM",
-      "lat": 44.8416,
-      "lng": -0.5697,
-      "pop500": 5107,
-      "pop800": 14646
-    },
-    {
-      "name": "Porte De Bourgogne",
-      "type": "TRAM",
-      "lat": 44.8372,
-      "lng": -0.5664,
-      "pop500": 7488,
-      "pop800": 17872
-    },
-    {
-      "name": "Quatre Chemins",
-      "type": "TRAM",
-      "lat": 44.8326,
-      "lng": -0.6449,
-      "pop500": 2345,
-      "pop800": 6215
-    },
-    {
-      "name": "Quinconces",
-      "type": "TRAM",
-      "lat": 44.844,
-      "lng": -0.5737,
-      "pop500": 4683,
-      "pop800": 14505
-    },
-    {
-      "name": "Quinconces",
-      "type": "TRAM",
-      "lat": 44.8445,
-      "lng": -0.5739,
-      "pop500": 4497,
-      "pop800": 14357
-    },
-    {
-      "name": "Quinconces",
-      "type": "TRAM",
-      "lat": 44.844,
-      "lng": -0.5738,
-      "pop500": 4745,
-      "pop800": 14556
-    },
-    {
-      "name": "Roustaing",
-      "type": "TRAM",
-      "lat": 44.8169,
-      "lng": -0.5856,
-      "pop500": 5133,
-      "pop800": 13768
-    },
-    {
-      "name": "Rue Achard",
-      "type": "TRAM",
-      "lat": 44.8666,
-      "lng": -0.5487,
-      "pop500": 3787,
-      "pop800": 6330
-    },
-    {
-      "name": "Rue Achard",
-      "type": "TRAM",
-      "lat": 44.8667,
-      "lng": -0.5487,
-      "pop500": 3791,
-      "pop800": 6281
-    },
-    {
-      "name": "Saint-Augustin",
-      "type": "TRAM",
-      "lat": 44.8288,
-      "lng": -0.6102,
-      "pop500": 3385,
-      "pop800": 9901
+      "lat": 44.8793,
+      "lng": -0.6027,
+      "pop500": 2915,
+      "pop800": 7605
     },
     {
       "name": "Barriere Du Medoc",
       "type": "TRAM",
-      "lat": 44.8534,
-      "lng": -0.5928,
-      "pop500": 5636,
-      "pop800": 15575
+      "lat": 44.8535,
+      "lng": -0.593,
+      "pop500": 5561,
+      "pop800": 15378
     },
     {
       "name": "Barriere Saint-Genes",
       "type": "TRAM",
-      "lat": 44.8216,
-      "lng": -0.5826,
-      "pop500": 6363,
-      "pop800": 16270
+      "lat": 44.8212,
+      "lng": -0.5828,
+      "pop500": 6355,
+      "pop800": 16043
+    },
+    {
+      "name": "Belcier",
+      "type": "TRAM",
+      "lat": 44.8225,
+      "lng": -0.5522,
+      "pop500": 2654,
+      "pop800": 7842
     },
     {
       "name": "Berges De La Garonne",
@@ -1089,8 +65,16 @@
       "type": "TRAM",
       "lat": 44.879,
       "lng": -0.5708,
-      "pop500": 4635,
-      "pop800": 7931
+      "pop500": 4621,
+      "pop800": 7925
+    },
+    {
+      "name": "Bergonie",
+      "type": "TRAM",
+      "lat": 44.825,
+      "lng": -0.5782,
+      "pop500": 7017,
+      "pop800": 19244
     },
     {
       "name": "Bethanie",
@@ -1098,383 +82,63 @@
       "lat": 44.806,
       "lng": -0.598,
       "pop500": 1628,
-      "pop800": 4771
-    },
-    {
-      "name": "Frankton",
-      "type": "TRAM",
-      "lat": 44.9075,
-      "lng": -0.6191,
-      "pop500": 1636,
-      "pop800": 3319
+      "pop800": 4773
     },
     {
       "name": "Bois Fleuri",
       "type": "TRAM",
       "lat": 44.876,
       "lng": -0.5193,
-      "pop500": 4486,
-      "pop800": 10721
+      "pop500": 4463,
+      "pop800": 10708
     },
     {
       "name": "Bougnard",
       "type": "TRAM",
       "lat": 44.7941,
       "lng": -0.634,
-      "pop500": 3675,
-      "pop800": 7926
-    },
-    {
-      "name": "Bougnard",
-      "type": "TRAM",
-      "lat": 44.7941,
-      "lng": -0.6341,
-      "pop500": 3598,
-      "pop800": 8020
-    },
-    {
-      "name": "Calypso",
-      "type": "TRAM",
-      "lat": 44.8614,
-      "lng": -0.6009,
-      "pop500": 4365,
-      "pop800": 11612
-    },
-    {
-      "name": "Capc Musee D'Art Contemporain",
-      "type": "TRAM",
-      "lat": 44.8491,
-      "lng": -0.5704,
-      "pop500": 3748,
-      "pop800": 11937
-    },
-    {
-      "name": "Chartrons",
-      "type": "TRAM",
-      "lat": 44.8528,
-      "lng": -0.5676,
-      "pop500": 5237,
-      "pop800": 13384
-    },
-    {
-      "name": "Courbet",
-      "type": "TRAM",
-      "lat": 44.857,
-      "lng": -0.5971,
-      "pop500": 4659,
-      "pop800": 12026
-    },
-    {
-      "name": "Cours Du Medoc",
-      "type": "TRAM",
-      "lat": 44.8559,
-      "lng": -0.5633,
-      "pop500": 4694,
-      "pop800": 13068
-    },
-    {
-      "name": "Cracovie",
-      "type": "TRAM",
-      "lat": 44.871,
-      "lng": -0.5762,
-      "pop500": 4153,
-      "pop800": 7583
-    },
-    {
-      "name": "Cracovie",
-      "type": "TRAM",
-      "lat": 44.8709,
-      "lng": -0.5763,
-      "pop500": 4047,
-      "pop800": 7631
-    },
-    {
-      "name": "Emile Counord",
-      "type": "TRAM",
-      "lat": 44.8586,
-      "lng": -0.5749,
-      "pop500": 8518,
-      "pop800": 21837
-    },
-    {
-      "name": "Eysines Centre",
-      "type": "TRAM",
-      "lat": 44.884,
-      "lng": -0.6501,
-      "pop500": 2475,
-      "pop800": 5966
-    },
-    {
-      "name": "Eysines Centre",
-      "type": "TRAM",
-      "lat": 44.8838,
-      "lng": -0.6496,
-      "pop500": 2436,
-      "pop800": 5931
-    },
-    {
-      "name": "Fontaine D'Arlac",
-      "type": "TRAM",
-      "lat": 44.8267,
-      "lng": -0.6256,
-      "pop500": 3227,
-      "pop800": 8813
-    },
-    {
-      "name": "Talence Centre-Forum",
-      "type": "TRAM",
-      "lat": 44.8119,
-      "lng": -0.5909,
-      "pop500": 3495,
-      "pop800": 9848
-    },
-    {
-      "name": "Francois Bordes",
-      "type": "TRAM",
-      "lat": 44.8035,
-      "lng": -0.6068,
-      "pop500": 535,
-      "pop800": 2816
-    },
-    {
-      "name": "Freres Robinson",
-      "type": "TRAM",
-      "lat": 44.8501,
-      "lng": -0.6559,
-      "pop500": 4104,
-      "pop800": 9827
-    },
-    {
-      "name": "Gambetta - Madd",
-      "type": "TRAM",
-      "lat": 44.8401,
-      "lng": -0.5783,
-      "pop500": 7716,
-      "pop800": 19509
-    },
-    {
-      "name": "Gambetta - Madd",
-      "type": "TRAM",
-      "lat": 44.8411,
-      "lng": -0.5785,
-      "pop500": 7591,
-      "pop800": 19052
-    },
-    {
-      "name": "Gare De Bruges",
-      "type": "TRAM",
-      "lat": 44.8878,
-      "lng": -0.6099,
-      "pop500": 1799,
-      "pop800": 4365
-    },
-    {
-      "name": "Gare Saint-Jean",
-      "type": "TRAM",
-      "lat": 44.8259,
-      "lng": -0.5568,
-      "pop500": 5136,
-      "pop800": 10352
-    },
-    {
-      "name": "Grand Theatre",
-      "type": "TRAM",
-      "lat": 44.842,
-      "lng": -0.5753,
-      "pop500": 7146,
-      "pop800": 16966
-    },
-    {
-      "name": "Gravieres",
-      "type": "TRAM",
-      "lat": 44.8728,
-      "lng": -0.5202,
-      "pop500": 7171,
-      "pop800": 12374
-    },
-    {
-      "name": "Hopital Haut Leveque",
-      "type": "TRAM",
-      "lat": 44.7877,
-      "lng": -0.6554,
-      "pop500": 675,
-      "pop800": 1508
-    },
-    {
-      "name": "Hippodrome",
-      "type": "TRAM",
-      "lat": 44.8741,
-      "lng": -0.6282,
-      "pop500": 2010,
-      "pop800": 4992
-    },
-    {
-      "name": "Hopital Pellegrin",
-      "type": "TRAM",
-      "lat": 44.8302,
-      "lng": -0.6046,
-      "pop500": 3719,
-      "pop800": 9214
-    },
-    {
-      "name": "Hotel De Ville",
-      "type": "TRAM",
-      "lat": 44.8377,
-      "lng": -0.5764,
-      "pop500": 9018,
-      "pop800": 21713
-    },
-    {
-      "name": "Hotel De Ville",
-      "type": "TRAM",
-      "lat": 44.8373,
-      "lng": -0.5772,
-      "pop500": 8471,
-      "pop800": 21884
-    },
-    {
-      "name": "La Morlette",
-      "type": "TRAM",
-      "lat": 44.855,
-      "lng": -0.5182,
-      "pop500": 4891,
-      "pop800": 10337
-    },
-    {
-      "name": "La Vache",
-      "type": "TRAM",
-      "lat": 44.8723,
-      "lng": -0.591,
-      "pop500": 1989,
-      "pop800": 7072
-    },
-    {
-      "name": "Gare De Begles",
-      "type": "TRAM",
-      "lat": 44.7982,
-      "lng": -0.5519,
-      "pop500": 2960,
-      "pop800": 6033
-    },
-    {
-      "name": "Les Aubiers",
-      "type": "TRAM",
-      "lat": 44.874,
-      "lng": -0.5743,
-      "pop500": 4390,
-      "pop800": 8441
-    },
-    {
-      "name": "Les Aubiers",
-      "type": "TRAM",
-      "lat": 44.874,
-      "lng": -0.5742,
-      "pop500": 4400,
-      "pop800": 8397
-    },
-    {
-      "name": "Les Pins",
-      "type": "TRAM",
-      "lat": 44.857,
-      "lng": -0.6598,
-      "pop500": 2583,
-      "pop800": 5748
-    },
-    {
-      "name": "Lycees De Merignac",
-      "type": "TRAM",
-      "lat": 44.835,
-      "lng": -0.6474,
-      "pop500": 2592,
-      "pop800": 7590
-    },
-    {
-      "name": "Mairie De Lormont",
-      "type": "TRAM",
-      "lat": 44.8798,
-      "lng": -0.5235,
-      "pop500": 3699,
-      "pop800": 8644
-    },
-    {
-      "name": "Mairie Du Bouscat",
-      "type": "TRAM",
-      "lat": 44.8656,
-      "lng": -0.6052,
-      "pop500": 5128,
-      "pop800": 10646
-    },
-    {
-      "name": "Merignac Centre",
-      "type": "TRAM",
-      "lat": 44.8414,
-      "lng": -0.6469,
-      "pop500": 5395,
-      "pop800": 10800
-    },
-    {
-      "name": "Montaigne-Montesquieu",
-      "type": "TRAM",
-      "lat": 44.7968,
-      "lng": -0.6174,
-      "pop500": 352,
-      "pop800": 1968
-    },
-    {
-      "name": "Montaigne-Montesquieu",
-      "type": "TRAM",
-      "lat": 44.7969,
-      "lng": -0.6174,
-      "pop500": 373,
-      "pop800": 1988
-    },
-    {
-      "name": "Bethanie",
-      "type": "TRAM",
-      "lat": 44.806,
-      "lng": -0.598,
-      "pop500": 1627,
-      "pop800": 4776
+      "pop500": 3637,
+      "pop800": 7973
     },
     {
       "name": "Brandenburg",
       "type": "TRAM",
       "lat": 44.8745,
-      "lng": -0.5456,
-      "pop500": 3463,
-      "pop800": 6803
-    },
-    {
-      "name": "Ausone",
-      "type": "TRAM",
-      "lat": 44.8793,
-      "lng": -0.603,
-      "pop500": 2910,
-      "pop800": 7659
-    },
-    {
-      "name": "Ausone",
-      "type": "TRAM",
-      "lat": 44.8792,
-      "lng": -0.6025,
-      "pop500": 2931,
-      "pop800": 7561
+      "lng": -0.5457,
+      "pop500": 3470,
+      "pop800": 6819
     },
     {
       "name": "Buttiniere",
       "type": "TRAM",
       "lat": 44.8641,
       "lng": -0.5249,
-      "pop500": 3501,
-      "pop800": 8553
+      "pop500": 3482,
+      "pop800": 8531
+    },
+    {
+      "name": "Cadera-Issartier",
+      "type": "TRAM",
+      "lat": 44.8357,
+      "lng": -0.682,
+      "pop500": 10,
+      "pop800": 113
+    },
+    {
+      "name": "Calais Centujean",
+      "type": "TRAM",
+      "lat": 44.8029,
+      "lng": -0.552,
+      "pop500": 3650,
+      "pop800": 8973
     },
     {
       "name": "Calypso",
       "type": "TRAM",
-      "lat": 44.8611,
-      "lng": -0.6005,
-      "pop500": 4369,
-      "pop800": 11645
+      "lat": 44.8612,
+      "lng": -0.6007,
+      "pop500": 4350,
+      "pop800": 11629
     },
     {
       "name": "Camille Godard",
@@ -1482,343 +146,55 @@
       "lat": 44.8547,
       "lng": -0.5745,
       "pop500": 9168,
-      "pop800": 20001
+      "pop800": 19990
     },
     {
       "name": "Camponac Mediatheque",
       "type": "TRAM",
-      "lat": 44.8004,
+      "lat": 44.8003,
       "lng": -0.6348,
-      "pop500": 2167,
-      "pop800": 6327
+      "pop500": 2171,
+      "pop800": 6332
+    },
+    {
+      "name": "Cantinolle",
+      "type": "TRAM",
+      "lat": 44.8919,
+      "lng": -0.6674,
+      "pop500": 237,
+      "pop800": 1145
+    },
+    {
+      "name": "Cap Metiers",
+      "type": "TRAM",
+      "lat": 44.7892,
+      "lng": -0.6516,
+      "pop500": 919,
+      "pop800": 3501
     },
     {
       "name": "Capc Musee D'Art Contemporain",
       "type": "TRAM",
       "lat": 44.8491,
       "lng": -0.5705,
-      "pop500": 3720,
-      "pop800": 11953
+      "pop500": 3734,
+      "pop800": 11945
     },
     {
-      "name": "Chartrons",
+      "name": "Carle Vernet",
       "type": "TRAM",
-      "lat": 44.8528,
-      "lng": -0.5676,
-      "pop500": 5278,
-      "pop800": 13401
+      "lat": 44.8199,
+      "lng": -0.5504,
+      "pop500": 3681,
+      "pop800": 7893
     },
     {
-      "name": "Chataigneraie",
+      "name": "Carnot-Mairie De Cenon",
       "type": "TRAM",
-      "lat": 44.793,
-      "lng": -0.6465,
-      "pop500": 3393,
-      "pop800": 7524
-    },
-    {
-      "name": "Chataigneraie",
-      "type": "TRAM",
-      "lat": 44.793,
-      "lng": -0.6467,
-      "pop500": 3407,
-      "pop800": 7526
-    },
-    {
-      "name": "Claveau",
-      "type": "TRAM",
-      "lat": 44.8779,
-      "lng": -0.5438,
-      "pop500": 3202,
-      "pop800": 5675
-    },
-    {
-      "name": "Courbet",
-      "type": "TRAM",
-      "lat": 44.8566,
-      "lng": -0.5969,
-      "pop500": 4571,
-      "pop800": 12114
-    },
-    {
-      "name": "Doyen Brus",
-      "type": "TRAM",
-      "lat": 44.8003,
-      "lng": -0.6097,
-      "pop500": 858,
-      "pop800": 2927
-    },
-    {
-      "name": "Doyen Brus",
-      "type": "TRAM",
-      "lat": 44.8003,
-      "lng": -0.6096,
-      "pop500": 860,
-      "pop800": 2921
-    },
-    {
-      "name": "Emile Counord",
-      "type": "TRAM",
-      "lat": 44.8587,
-      "lng": -0.5749,
-      "pop500": 8504,
-      "pop800": 21802
-    },
-    {
-      "name": "Floirac Dravemont",
-      "type": "TRAM",
-      "lat": 44.8459,
-      "lng": -0.5104,
-      "pop500": 4947,
-      "pop800": 8727
-    },
-    {
-      "name": "Fontaine D'Arlac",
-      "type": "TRAM",
-      "lat": 44.8266,
-      "lng": -0.6256,
-      "pop500": 3258,
-      "pop800": 8808
-    },
-    {
-      "name": "Francois Bordes",
-      "type": "TRAM",
-      "lat": 44.8035,
-      "lng": -0.6067,
-      "pop500": 531,
-      "pop800": 2818
-    },
-    {
-      "name": "Francois Mitterrand",
-      "type": "TRAM",
-      "lat": 44.8272,
-      "lng": -0.6143,
-      "pop500": 4282,
-      "pop800": 9696
-    },
-    {
-      "name": "Francois Mitterrand",
-      "type": "TRAM",
-      "lat": 44.8272,
-      "lng": -0.6142,
-      "pop500": 4256,
-      "pop800": 9677
-    },
-    {
-      "name": "Freres Robinson",
-      "type": "TRAM",
-      "lat": 44.85,
-      "lng": -0.656,
-      "pop500": 4073,
-      "pop800": 9849
-    },
-    {
-      "name": "Galin",
-      "type": "TRAM",
-      "lat": 44.8498,
-      "lng": -0.5443,
-      "pop500": 4209,
-      "pop800": 9038
-    },
-    {
-      "name": "Gare De Blanquefort",
-      "type": "TRAM",
-      "lat": 44.9168,
-      "lng": -0.6236,
-      "pop500": 741,
-      "pop800": 2053
-    },
-    {
-      "name": "Gare De Bruges",
-      "type": "TRAM",
-      "lat": 44.8874,
-      "lng": -0.6098,
-      "pop500": 1963,
-      "pop800": 4621
-    },
-    {
-      "name": "Gare Saint-Jean",
-      "type": "TRAM",
-      "lat": 44.8259,
-      "lng": -0.5568,
-      "pop500": 5153,
-      "pop800": 10397
-    },
-    {
-      "name": "Grand Parc",
-      "type": "TRAM",
-      "lat": 44.8623,
-      "lng": -0.5753,
-      "pop500": 8149,
-      "pop800": 17169
-    },
-    {
-      "name": "Grand Parc",
-      "type": "TRAM",
-      "lat": 44.8623,
-      "lng": -0.5753,
-      "pop500": 8190,
-      "pop800": 17268
-    },
-    {
-      "name": "Grand Theatre",
-      "type": "TRAM",
-      "lat": 44.8421,
-      "lng": -0.5753,
-      "pop500": 7140,
-      "pop800": 16954
-    },
-    {
-      "name": "Hopital Haut Leveque",
-      "type": "TRAM",
-      "lat": 44.7877,
-      "lng": -0.6554,
-      "pop500": 661,
-      "pop800": 1489
-    },
-    {
-      "name": "Hippodrome",
-      "type": "TRAM",
-      "lat": 44.8739,
-      "lng": -0.6287,
-      "pop500": 1968,
-      "pop800": 5043
-    },
-    {
-      "name": "Hotel De Police",
-      "type": "TRAM",
-      "lat": 44.8349,
-      "lng": -0.5888,
-      "pop500": 4866,
-      "pop800": 14866
-    },
-    {
-      "name": "Iris",
-      "type": "TRAM",
-      "lat": 44.8685,
-      "lng": -0.5227,
-      "pop500": 4181,
-      "pop800": 10426
-    },
-    {
-      "name": "Jardin Public",
-      "type": "TRAM",
-      "lat": 44.8482,
-      "lng": -0.5753,
-      "pop500": 5390,
-      "pop800": 15602
-    },
-    {
-      "name": "Jean Jaures",
-      "type": "TRAM",
-      "lat": 44.8538,
-      "lng": -0.5379,
-      "pop500": 4725,
-      "pop800": 8862
-    },
-    {
-      "name": "Jean Zay",
-      "type": "TRAM",
-      "lat": 44.8541,
-      "lng": -0.5131,
-      "pop500": 3723,
-      "pop800": 9571
-    },
-    {
-      "name": "La Maregue",
-      "type": "TRAM",
-      "lat": 44.8508,
-      "lng": -0.5089,
-      "pop500": 4171,
-      "pop800": 8912
-    },
-    {
-      "name": "La Morlette",
-      "type": "TRAM",
-      "lat": 44.855,
-      "lng": -0.5181,
-      "pop500": 4882,
-      "pop800": 10334
-    },
-    {
-      "name": "Lauriers",
-      "type": "TRAM",
-      "lat": 44.8791,
-      "lng": -0.5179,
-      "pop500": 2531,
-      "pop800": 7556
-    },
-    {
-      "name": "Gare De Begles",
-      "type": "TRAM",
-      "lat": 44.7982,
-      "lng": -0.5518,
-      "pop500": 2956,
-      "pop800": 5987
-    },
-    {
-      "name": "Les Ecus",
-      "type": "TRAM",
-      "lat": 44.8692,
-      "lng": -0.6093,
-      "pop500": 4459,
-      "pop800": 9788
-    },
-    {
-      "name": "Lycees De Merignac",
-      "type": "TRAM",
-      "lat": 44.835,
-      "lng": -0.6475,
-      "pop500": 2586,
-      "pop800": 7551
-    },
-    {
-      "name": "Mairie Du Bouscat",
-      "type": "TRAM",
-      "lat": 44.8653,
-      "lng": -0.6049,
-      "pop500": 4917,
-      "pop800": 10834
-    },
-    {
-      "name": "Stade Musard",
-      "type": "TRAM",
-      "lat": 44.808,
-      "lng": -0.5515,
-      "pop500": 3707,
-      "pop800": 9809
-    },
-    {
-      "name": "Musee D'Aquitaine",
-      "type": "TRAM",
-      "lat": 44.8355,
-      "lng": -0.5753,
-      "pop500": 9395,
-      "pop800": 23894
-    },
-    {
-      "name": "Musee D'Aquitaine",
-      "type": "TRAM",
-      "lat": 44.8355,
-      "lng": -0.5753,
-      "pop500": 9366,
-      "pop800": 23967
-    },
-    {
-      "name": "Merignac Soleil",
-      "type": "TRAM",
-      "lat": 44.8312,
-      "lng": -0.6568,
-      "pop500": 1057,
-      "pop800": 4230
-    },
-    {
-      "name": "Chemin Long",
-      "type": "TRAM",
-      "lat": 44.834,
-      "lng": -0.6691,
-      "pop500": 284,
-      "pop800": 2598
+      "lat": 44.8578,
+      "lng": -0.5315,
+      "pop500": 3548,
+      "pop800": 9131
     },
     {
       "name": "Caroline Aigle",
@@ -1829,84 +205,556 @@
       "pop800": 31
     },
     {
+      "name": "Carriet",
+      "type": "TRAM",
+      "lat": 44.8822,
+      "lng": -0.5239,
+      "pop500": 3803,
+      "pop800": 6891
+    },
+    {
+      "name": "Cenon Gare",
+      "type": "TRAM",
+      "lat": 44.8559,
+      "lng": -0.5344,
+      "pop500": 4795,
+      "pop800": 7830
+    },
+    {
+      "name": "Champ De Courses - Treulon",
+      "type": "TRAM",
+      "lat": 44.8764,
+      "lng": -0.6217,
+      "pop500": 2584,
+      "pop800": 5772
+    },
+    {
+      "name": "Chartrons",
+      "type": "TRAM",
+      "lat": 44.8528,
+      "lng": -0.5676,
+      "pop500": 5257,
+      "pop800": 13392
+    },
+    {
+      "name": "Chataigneraie",
+      "type": "TRAM",
+      "lat": 44.793,
+      "lng": -0.6466,
+      "pop500": 3400,
+      "pop800": 7525
+    },
+    {
       "name": "Chemin Long",
       "type": "TRAM",
       "lat": 44.8341,
       "lng": -0.6692,
-      "pop500": 280,
-      "pop800": 2583
+      "pop500": 282,
+      "pop800": 2591
     },
     {
-      "name": "Arts & Metiers",
+      "name": "Claveau",
       "type": "TRAM",
-      "lat": 44.806,
-      "lng": -0.6023,
-      "pop500": 680,
-      "pop800": 2954
+      "lat": 44.8779,
+      "lng": -0.5438,
+      "pop500": 3216,
+      "pop800": 5681
     },
     {
-      "name": "Barriere Du Medoc",
+      "name": "Courbet",
       "type": "TRAM",
-      "lat": 44.8537,
-      "lng": -0.5932,
-      "pop500": 5487,
-      "pop800": 15167
+      "lat": 44.8568,
+      "lng": -0.597,
+      "pop500": 4616,
+      "pop800": 12071
+    },
+    {
+      "name": "Cours Du Medoc",
+      "type": "TRAM",
+      "lat": 44.8559,
+      "lng": -0.5632,
+      "pop500": 4680,
+      "pop800": 13038
+    },
+    {
+      "name": "Cracovie",
+      "type": "TRAM",
+      "lat": 44.871,
+      "lng": -0.5762,
+      "pop500": 4102,
+      "pop800": 7606
+    },
+    {
+      "name": "Croix De Seguey",
+      "type": "TRAM",
+      "lat": 44.85,
+      "lng": -0.5858,
+      "pop500": 8409,
+      "pop800": 19699
+    },
+    {
+      "name": "Doyen Brus",
+      "type": "TRAM",
+      "lat": 44.8003,
+      "lng": -0.6096,
+      "pop500": 859,
+      "pop800": 2924
+    },
+    {
+      "name": "Emile Counord",
+      "type": "TRAM",
+      "lat": 44.8587,
+      "lng": -0.5749,
+      "pop500": 8511,
+      "pop800": 21820
+    },
+    {
+      "name": "Eysines Centre",
+      "type": "TRAM",
+      "lat": 44.8839,
+      "lng": -0.6498,
+      "pop500": 2456,
+      "pop800": 5950
+    },
+    {
+      "name": "Floirac Dravemont",
+      "type": "TRAM",
+      "lat": 44.8459,
+      "lng": -0.5104,
+      "pop500": 4944,
+      "pop800": 8735
+    },
+    {
+      "name": "Fondaudege - Museum",
+      "type": "TRAM",
+      "lat": 44.8466,
+      "lng": -0.5801,
+      "pop500": 7274,
+      "pop800": 18641
+    },
+    {
+      "name": "Fontaine D'Arlac",
+      "type": "TRAM",
+      "lat": 44.8267,
+      "lng": -0.6256,
+      "pop500": 3243,
+      "pop800": 8810
+    },
+    {
+      "name": "France Alouette",
+      "type": "TRAM",
+      "lat": 44.7987,
+      "lng": -0.6631,
+      "pop500": 1646,
+      "pop800": 4950
+    },
+    {
+      "name": "Francois Bordes",
+      "type": "TRAM",
+      "lat": 44.8035,
+      "lng": -0.6067,
+      "pop500": 533,
+      "pop800": 2817
+    },
+    {
+      "name": "Francois Mitterrand",
+      "type": "TRAM",
+      "lat": 44.8272,
+      "lng": -0.6142,
+      "pop500": 4269,
+      "pop800": 9686
+    },
+    {
+      "name": "Frankton",
+      "type": "TRAM",
+      "lat": 44.9073,
+      "lng": -0.6191,
+      "pop500": 1637,
+      "pop800": 3281
+    },
+    {
+      "name": "Freres Robinson",
+      "type": "TRAM",
+      "lat": 44.85,
+      "lng": -0.6559,
+      "pop500": 4088,
+      "pop800": 9839
+    },
+    {
+      "name": "Galin",
+      "type": "TRAM",
+      "lat": 44.8498,
+      "lng": -0.5443,
+      "pop500": 4210,
+      "pop800": 9033
+    },
+    {
+      "name": "Gambetta - Madd",
+      "type": "TRAM",
+      "lat": 44.8406,
+      "lng": -0.5784,
+      "pop500": 7647,
+      "pop800": 19299
+    },
+    {
+      "name": "Gare De Begles",
+      "type": "TRAM",
+      "lat": 44.7982,
+      "lng": -0.5519,
+      "pop500": 2958,
+      "pop800": 6010
+    },
+    {
+      "name": "Gare De Blanquefort",
+      "type": "TRAM",
+      "lat": 44.9168,
+      "lng": -0.6236,
+      "pop500": 737,
+      "pop800": 2040
+    },
+    {
+      "name": "Gare De Bruges",
+      "type": "TRAM",
+      "lat": 44.8876,
+      "lng": -0.6098,
+      "pop500": 1879,
+      "pop800": 4494
+    },
+    {
+      "name": "Gare De Pessac Alouette",
+      "type": "TRAM",
+      "lat": 44.7931,
+      "lng": -0.6577,
+      "pop500": 1416,
+      "pop800": 4092
+    },
+    {
+      "name": "Gare Saint-Jean",
+      "type": "TRAM",
+      "lat": 44.8259,
+      "lng": -0.5568,
+      "pop500": 5145,
+      "pop800": 10374
+    },
+    {
+      "name": "Gavinies",
+      "type": "TRAM",
+      "lat": 44.8331,
+      "lng": -0.5931,
+      "pop500": 4498,
+      "pop800": 13498
+    },
+    {
+      "name": "Grand Parc",
+      "type": "TRAM",
+      "lat": 44.8623,
+      "lng": -0.5753,
+      "pop500": 8170,
+      "pop800": 17218
+    },
+    {
+      "name": "Grand Theatre",
+      "type": "TRAM",
+      "lat": 44.8421,
+      "lng": -0.5753,
+      "pop500": 7143,
+      "pop800": 16960
+    },
+    {
+      "name": "Gravieres",
+      "type": "TRAM",
+      "lat": 44.8728,
+      "lng": -0.5202,
+      "pop500": 7152,
+      "pop800": 12369
+    },
+    {
+      "name": "Hippodrome",
+      "type": "TRAM",
+      "lat": 44.874,
+      "lng": -0.6284,
+      "pop500": 1981,
+      "pop800": 4999
+    },
+    {
+      "name": "Hopital Haut Leveque",
+      "type": "TRAM",
+      "lat": 44.7877,
+      "lng": -0.6554,
+      "pop500": 668,
+      "pop800": 1498
+    },
+    {
+      "name": "Hopital Pellegrin",
+      "type": "TRAM",
+      "lat": 44.8302,
+      "lng": -0.6046,
+      "pop500": 3712,
+      "pop800": 9209
+    },
+    {
+      "name": "Hotel De Police",
+      "type": "TRAM",
+      "lat": 44.8349,
+      "lng": -0.5888,
+      "pop500": 4871,
+      "pop800": 14857
+    },
+    {
+      "name": "Hotel De Ville",
+      "type": "TRAM",
+      "lat": 44.8375,
+      "lng": -0.5768,
+      "pop500": 8741,
+      "pop800": 21825
+    },
+    {
+      "name": "Hotel De Ville Merignac",
+      "type": "TRAM",
+      "lat": 44.8442,
+      "lng": -0.6583,
+      "pop500": 3021,
+      "pop800": 9856
+    },
+    {
+      "name": "Iris",
+      "type": "TRAM",
+      "lat": 44.8685,
+      "lng": -0.5227,
+      "pop500": 4189,
+      "pop800": 10455
+    },
+    {
+      "name": "Jardin Botanique",
+      "type": "TRAM",
+      "lat": 44.843,
+      "lng": -0.5554,
+      "pop500": 5270,
+      "pop800": 10112
+    },
+    {
+      "name": "Jardin Public",
+      "type": "TRAM",
+      "lat": 44.8482,
+      "lng": -0.5753,
+      "pop500": 5387,
+      "pop800": 15608
+    },
+    {
+      "name": "Jean Jaures",
+      "type": "TRAM",
+      "lat": 44.8538,
+      "lng": -0.5378,
+      "pop500": 4742,
+      "pop800": 8863
+    },
+    {
+      "name": "Jean Zay",
+      "type": "TRAM",
+      "lat": 44.8541,
+      "lng": -0.5132,
+      "pop500": 3713,
+      "pop800": 9607
+    },
+    {
+      "name": "La Belle Rose",
+      "type": "TRAM",
+      "lat": 44.8111,
+      "lng": -0.5513,
+      "pop500": 4084,
+      "pop800": 10086
     },
     {
       "name": "La Cite Du Vin",
       "type": "TRAM",
       "lat": 44.8607,
       "lng": -0.5532,
-      "pop500": 2910,
-      "pop800": 8407
+      "pop500": 2932,
+      "pop800": 8435
     },
     {
-      "name": "Belcier",
+      "name": "La Gardette - Bassens - Carbon-Blanc",
       "type": "TRAM",
-      "lat": 44.8225,
-      "lng": -0.5522,
-      "pop500": 2655,
-      "pop800": 7860
+      "lat": 44.8877,
+      "lng": -0.5173,
+      "pop500": 1775,
+      "pop800": 4664
     },
     {
-      "name": "Bergonie",
+      "name": "La Maregue",
       "type": "TRAM",
-      "lat": 44.825,
-      "lng": -0.5782,
-      "pop500": 7024,
-      "pop800": 19252
+      "lat": 44.8507,
+      "lng": -0.5089,
+      "pop500": 4182,
+      "pop800": 8936
     },
     {
-      "name": "Bergonie",
+      "name": "La Morlette",
       "type": "TRAM",
-      "lat": 44.825,
-      "lng": -0.5783,
-      "pop500": 7010,
-      "pop800": 19236
+      "lat": 44.855,
+      "lng": -0.5182,
+      "pop500": 4887,
+      "pop800": 10335
     },
     {
-      "name": "Quarante Journaux",
+      "name": "La Vache",
       "type": "TRAM",
-      "lat": 44.8831,
-      "lng": -0.5705,
-      "pop500": 2887,
-      "pop800": 4489
+      "lat": 44.8722,
+      "lng": -0.5908,
+      "pop500": 2010,
+      "pop800": 7094
+    },
+    {
+      "name": "Lauriers",
+      "type": "TRAM",
+      "lat": 44.8791,
+      "lng": -0.5179,
+      "pop500": 2538,
+      "pop800": 7569
+    },
+    {
+      "name": "Le Haillan Rostand",
+      "type": "TRAM",
+      "lat": 44.8585,
+      "lng": -0.6683,
+      "pop500": 835,
+      "pop800": 1906
+    },
+    {
+      "name": "Les Aubiers",
+      "type": "TRAM",
+      "lat": 44.874,
+      "lng": -0.5743,
+      "pop500": 4395,
+      "pop800": 8419
+    },
+    {
+      "name": "Les Ecus",
+      "type": "TRAM",
+      "lat": 44.869,
+      "lng": -0.6091,
+      "pop500": 4517,
+      "pop800": 9841
+    },
+    {
+      "name": "Les Hangars",
+      "type": "TRAM",
+      "lat": 44.858,
+      "lng": -0.5588,
+      "pop500": 4992,
+      "pop800": 10831
+    },
+    {
+      "name": "Les Pins",
+      "type": "TRAM",
+      "lat": 44.8569,
+      "lng": -0.6598,
+      "pop500": 2581,
+      "pop800": 5782
+    },
+    {
+      "name": "Les Sources",
+      "type": "TRAM",
+      "lat": 44.888,
+      "lng": -0.66,
+      "pop500": 1009,
+      "pop800": 3627
+    },
+    {
+      "name": "Lycee Vaclav Havel",
+      "type": "TRAM",
+      "lat": 44.7866,
+      "lng": -0.5662,
+      "pop500": 3557,
+      "pop800": 7605
+    },
+    {
+      "name": "Lycees De Merignac",
+      "type": "TRAM",
+      "lat": 44.835,
+      "lng": -0.6475,
+      "pop500": 2589,
+      "pop800": 7571
+    },
+    {
+      "name": "Mairie De Lormont",
+      "type": "TRAM",
+      "lat": 44.8799,
+      "lng": -0.5235,
+      "pop500": 3698,
+      "pop800": 8633
+    },
+    {
+      "name": "Mairie Du Bouscat",
+      "type": "TRAM",
+      "lat": 44.8654,
+      "lng": -0.6051,
+      "pop500": 5019,
+      "pop800": 10738
+    },
+    {
+      "name": "Meriadeck",
+      "type": "TRAM",
+      "lat": 44.8381,
+      "lng": -0.5843,
+      "pop500": 5698,
+      "pop800": 16945
+    },
+    {
+      "name": "Merignac Aeroport",
+      "type": "TRAM",
+      "lat": 44.8306,
+      "lng": -0.7009,
+      "pop500": 0,
+      "pop800": 0
+    },
+    {
+      "name": "Merignac Centre",
+      "type": "TRAM",
+      "lat": 44.8414,
+      "lng": -0.6468,
+      "pop500": 5363,
+      "pop800": 10841
+    },
+    {
+      "name": "Merignac Soleil",
+      "type": "TRAM",
+      "lat": 44.8312,
+      "lng": -0.6568,
+      "pop500": 1059,
+      "pop800": 4230
+    },
+    {
+      "name": "Montaigne-Montesquieu",
+      "type": "TRAM",
+      "lat": 44.7968,
+      "lng": -0.6174,
+      "pop500": 362,
+      "pop800": 1970
+    },
+    {
+      "name": "Musee D'Aquitaine",
+      "type": "TRAM",
+      "lat": 44.8355,
+      "lng": -0.5753,
+      "pop500": 9381,
+      "pop800": 23931
     },
     {
       "name": "New York",
       "type": "TRAM",
-      "lat": 44.8709,
+      "lat": 44.871,
       "lng": -0.5473,
-      "pop500": 2987,
-      "pop800": 8443
+      "pop500": 2996,
+      "pop800": 8470
     },
     {
-      "name": "Palais Des Congres",
+      "name": "Palais De Justice",
       "type": "TRAM",
-      "lat": 44.8893,
-      "lng": -0.5671,
-      "pop500": 0,
-      "pop800": 334
+      "lat": 44.8363,
+      "lng": -0.5815,
+      "pop500": 6545,
+      "pop800": 18984
     },
     {
       "name": "Palais Des Congres",
@@ -1914,263 +762,31 @@
       "lat": 44.8893,
       "lng": -0.5672,
       "pop500": 0,
-      "pop800": 371
+      "pop800": 352
     },
     {
       "name": "Palmer",
       "type": "TRAM",
       "lat": 44.8622,
-      "lng": -0.5198,
-      "pop500": 5314,
-      "pop800": 9557
+      "lng": -0.5197,
+      "pop500": 5308,
+      "pop800": 9565
     },
     {
       "name": "Parc De Mussonville",
       "type": "TRAM",
-      "lat": 44.7939,
-      "lng": -0.5597,
-      "pop500": 2136,
-      "pop800": 5496
-    },
-    {
-      "name": "Pelletan",
-      "type": "TRAM",
-      "lat": 44.8587,
-      "lng": -0.5197,
-      "pop500": 5406,
-      "pop800": 10436
-    },
-    {
-      "name": "Peychotte",
-      "type": "TRAM",
-      "lat": 44.8266,
-      "lng": -0.6199,
-      "pop500": 4796,
-      "pop800": 10159
-    },
-    {
-      "name": "Picot",
-      "type": "TRAM",
-      "lat": 44.8815,
-      "lng": -0.6414,
-      "pop500": 2051,
-      "pop800": 5785
-    },
-    {
-      "name": "Picot",
-      "type": "TRAM",
-      "lat": 44.8813,
-      "lng": -0.6409,
-      "pop500": 2214,
-      "pop800": 5699
-    },
-    {
-      "name": "Pierre Mendes France",
-      "type": "TRAM",
-      "lat": 44.8302,
-      "lng": -0.6398,
-      "pop500": 1787,
-      "pop800": 5495
-    },
-    {
-      "name": "Place Du Palais",
-      "type": "TRAM",
-      "lat": 44.8379,
-      "lng": -0.5693,
-      "pop500": 9406,
-      "pop800": 18498
-    },
-    {
-      "name": "Place Paul Doumer",
-      "type": "TRAM",
-      "lat": 44.8519,
-      "lng": -0.5741,
-      "pop500": 7743,
-      "pop800": 16351
-    },
-    {
-      "name": "Place Ravezies - Le Bouscat",
-      "type": "TRAM",
-      "lat": 44.8671,
-      "lng": -0.5758,
-      "pop500": 2907,
-      "pop800": 11812
-    },
-    {
-      "name": "Quatre Chemins",
-      "type": "TRAM",
-      "lat": 44.8326,
-      "lng": -0.6449,
-      "pop500": 2336,
-      "pop800": 6210
-    },
-    {
-      "name": "Quinconces",
-      "type": "TRAM",
-      "lat": 44.8445,
-      "lng": -0.5738,
-      "pop500": 4453,
-      "pop800": 14310
-    },
-    {
-      "name": "Roustaing",
-      "type": "TRAM",
-      "lat": 44.817,
-      "lng": -0.5857,
-      "pop500": 5130,
-      "pop800": 13767
-    },
-    {
-      "name": "Saige",
-      "type": "TRAM",
       "lat": 44.794,
-      "lng": -0.6285,
-      "pop500": 3922,
-      "pop800": 5705
+      "lng": -0.5596,
+      "pop500": 2130,
+      "pop800": 5499
     },
     {
-      "name": "Sainte-Catherine",
+      "name": "Parc Des Expositions - Nouveau Stade",
       "type": "TRAM",
-      "lat": 44.8376,
-      "lng": -0.5733,
-      "pop500": 11028,
-      "pop800": 20187
-    },
-    {
-      "name": "Sainte-Catherine",
-      "type": "TRAM",
-      "lat": 44.8376,
-      "lng": -0.5733,
-      "pop500": 11058,
-      "pop800": 20196
-    },
-    {
-      "name": "Sainte-Croix",
-      "type": "TRAM",
-      "lat": 44.8319,
-      "lng": -0.5594,
-      "pop500": 3985,
-      "pop800": 11384
-    },
-    {
-      "name": "Saint-Michel",
-      "type": "TRAM",
-      "lat": 44.8345,
-      "lng": -0.5634,
-      "pop500": 6229,
-      "pop800": 15097
-    },
-    {
-      "name": "Saint-Michel",
-      "type": "TRAM",
-      "lat": 44.8345,
-      "lng": -0.5634,
-      "pop500": 6258,
-      "pop800": 15144
-    },
-    {
-      "name": "Saint-Bruno - Hotel De Region",
-      "type": "TRAM",
-      "lat": 44.8375,
-      "lng": -0.5893,
-      "pop500": 4515,
-      "pop800": 14946
-    },
-    {
-      "name": "Stade Chaban Delmas",
-      "type": "TRAM",
-      "lat": 44.8316,
-      "lng": -0.5979,
-      "pop500": 4470,
-      "pop800": 11366
-    },
-    {
-      "name": "Tauzia",
-      "type": "TRAM",
-      "lat": 44.829,
-      "lng": -0.5585,
-      "pop500": 4861,
-      "pop800": 11867
-    },
-    {
-      "name": "Terres Neuves",
-      "type": "TRAM",
-      "lat": 44.8153,
-      "lng": -0.5509,
-      "pop500": 4425,
-      "pop800": 9460
-    },
-    {
-      "name": "Terres Neuves",
-      "type": "TRAM",
-      "lat": 44.8153,
-      "lng": -0.5509,
-      "pop500": 4445,
-      "pop800": 9484
-    },
-    {
-      "name": "Thiers-Benauge",
-      "type": "TRAM",
-      "lat": 44.8458,
-      "lng": -0.5509,
-      "pop500": 3966,
-      "pop800": 10476
-    },
-    {
-      "name": "Unitec",
-      "type": "TRAM",
-      "lat": 44.7963,
-      "lng": -0.6215,
-      "pop500": 473,
-      "pop800": 3270
-    },
-    {
-      "name": "Victoire",
-      "type": "TRAM",
-      "lat": 44.8312,
-      "lng": -0.573,
-      "pop500": 9634,
-      "pop800": 24722
-    },
-    {
-      "name": "Victoire",
-      "type": "TRAM",
-      "lat": 44.8312,
-      "lng": -0.5731,
-      "pop500": 9619,
-      "pop800": 24674
-    },
-    {
-      "name": "Carle Vernet",
-      "type": "TRAM",
-      "lat": 44.8199,
-      "lng": -0.5505,
-      "pop500": 3652,
-      "pop800": 7893
-    },
-    {
-      "name": "Carle Vernet",
-      "type": "TRAM",
-      "lat": 44.8199,
-      "lng": -0.5504,
-      "pop500": 3688,
-      "pop800": 7896
-    },
-    {
-      "name": "Pin Galant",
-      "type": "TRAM",
-      "lat": 44.8443,
-      "lng": -0.6514,
-      "pop500": 4015,
-      "pop800": 12681
-    },
-    {
-      "name": "Floirac Dravemont",
-      "type": "TRAM",
-      "lat": 44.8459,
-      "lng": -0.5104,
-      "pop500": 4941,
-      "pop800": 8744
+      "lat": 44.8933,
+      "lng": -0.566,
+      "pop500": 0,
+      "pop800": 1
     },
     {
       "name": "Parc Des Expositions - Stade",
@@ -2178,63 +794,311 @@
       "lat": 44.8933,
       "lng": -0.5658,
       "pop500": 0,
-      "pop800": 0
+      "pop800": 1
+    },
+    {
+      "name": "Peixotto",
+      "type": "TRAM",
+      "lat": 44.8072,
+      "lng": -0.5926,
+      "pop500": 3549,
+      "pop800": 8457
+    },
+    {
+      "name": "Pelletan",
+      "type": "TRAM",
+      "lat": 44.8587,
+      "lng": -0.5197,
+      "pop500": 5424,
+      "pop800": 10427
+    },
+    {
+      "name": "Pessac Centre",
+      "type": "TRAM",
+      "lat": 44.8043,
+      "lng": -0.6325,
+      "pop500": 2701,
+      "pop800": 6712
+    },
+    {
+      "name": "Peychotte",
+      "type": "TRAM",
+      "lat": 44.8266,
+      "lng": -0.6199,
+      "pop500": 4802,
+      "pop800": 10151
+    },
+    {
+      "name": "Picot",
+      "type": "TRAM",
+      "lat": 44.8814,
+      "lng": -0.6412,
+      "pop500": 2124,
+      "pop800": 5744
+    },
+    {
+      "name": "Pierre Mendes France",
+      "type": "TRAM",
+      "lat": 44.8302,
+      "lng": -0.6398,
+      "pop500": 1783,
+      "pop800": 5480
+    },
+    {
+      "name": "Pin Galant",
+      "type": "TRAM",
+      "lat": 44.8442,
+      "lng": -0.6513,
+      "pop500": 4032,
+      "pop800": 12674
+    },
+    {
+      "name": "Place De La Bourse",
+      "type": "TRAM",
+      "lat": 44.8416,
+      "lng": -0.5697,
+      "pop500": 5153,
+      "pop800": 14682
+    },
+    {
+      "name": "Place Du Palais",
+      "type": "TRAM",
+      "lat": 44.8379,
+      "lng": -0.5693,
+      "pop500": 9388,
+      "pop800": 18503
+    },
+    {
+      "name": "Place Paul Doumer",
+      "type": "TRAM",
+      "lat": 44.8519,
+      "lng": -0.5741,
+      "pop500": 7766,
+      "pop800": 16369
+    },
+    {
+      "name": "Place Ravezies - Le Bouscat",
+      "type": "TRAM",
+      "lat": 44.8671,
+      "lng": -0.5758,
+      "pop500": 2879,
+      "pop800": 11812
+    },
+    {
+      "name": "Porte De Bourgogne",
+      "type": "TRAM",
+      "lat": 44.8372,
+      "lng": -0.5663,
+      "pop500": 7431,
+      "pop800": 17836
+    },
+    {
+      "name": "Quarante Journaux",
+      "type": "TRAM",
+      "lat": 44.8831,
+      "lng": -0.5704,
+      "pop500": 2903,
+      "pop800": 4491
+    },
+    {
+      "name": "Quatre Chemins",
+      "type": "TRAM",
+      "lat": 44.8326,
+      "lng": -0.6449,
+      "pop500": 2340,
+      "pop800": 6213
+    },
+    {
+      "name": "Quinconces",
+      "type": "TRAM",
+      "lat": 44.8443,
+      "lng": -0.5738,
+      "pop500": 4593,
+      "pop800": 14421
+    },
+    {
+      "name": "Quinconces Fleuve",
+      "type": "TRAM",
+      "lat": 44.8445,
+      "lng": -0.5707,
+      "pop500": 2659,
+      "pop800": 12415
+    },
+    {
+      "name": "Roustaing",
+      "type": "TRAM",
+      "lat": 44.8169,
+      "lng": -0.5857,
+      "pop500": 5131,
+      "pop800": 13767
+    },
+    {
+      "name": "Rue Achard",
+      "type": "TRAM",
+      "lat": 44.8666,
+      "lng": -0.5487,
+      "pop500": 3789,
+      "pop800": 6303
+    },
+    {
+      "name": "Saige",
+      "type": "TRAM",
+      "lat": 44.794,
+      "lng": -0.6285,
+      "pop500": 3933,
+      "pop800": 5722
+    },
+    {
+      "name": "Saint-Augustin",
+      "type": "TRAM",
+      "lat": 44.8288,
+      "lng": -0.6102,
+      "pop500": 3398,
+      "pop800": 9907
+    },
+    {
+      "name": "Saint-Bruno - Hotel De Region",
+      "type": "TRAM",
+      "lat": 44.8375,
+      "lng": -0.5892,
+      "pop500": 4523,
+      "pop800": 14946
+    },
+    {
+      "name": "Saint-Michel",
+      "type": "TRAM",
+      "lat": 44.8345,
+      "lng": -0.5634,
+      "pop500": 6244,
+      "pop800": 15121
+    },
+    {
+      "name": "Saint-Nicolas",
+      "type": "TRAM",
+      "lat": 44.829,
+      "lng": -0.574,
+      "pop500": 9363,
+      "pop800": 22045
+    },
+    {
+      "name": "Sainte-Catherine",
+      "type": "TRAM",
+      "lat": 44.8376,
+      "lng": -0.5733,
+      "pop500": 11043,
+      "pop800": 20191
+    },
+    {
+      "name": "Sainte-Croix",
+      "type": "TRAM",
+      "lat": 44.8318,
+      "lng": -0.5594,
+      "pop500": 3995,
+      "pop800": 11384
+    },
+    {
+      "name": "Sainte-Germaine",
+      "type": "TRAM",
+      "lat": 44.8715,
+      "lng": -0.6144,
+      "pop500": 2918,
+      "pop800": 7858
+    },
+    {
+      "name": "Simone Veil",
+      "type": "TRAM",
+      "lat": 44.8797,
+      "lng": -0.6368,
+      "pop500": 3076,
+      "pop800": 5617
+    },
+    {
+      "name": "Stade Chaban Delmas",
+      "type": "TRAM",
+      "lat": 44.8314,
+      "lng": -0.5985,
+      "pop500": 4435,
+      "pop800": 11078
+    },
+    {
+      "name": "Stade Musard",
+      "type": "TRAM",
+      "lat": 44.808,
+      "lng": -0.5515,
+      "pop500": 3703,
+      "pop800": 9806
+    },
+    {
+      "name": "Stalingrad",
+      "type": "TRAM",
+      "lat": 44.8403,
+      "lng": -0.5598,
+      "pop500": 3972,
+      "pop800": 9107
+    },
+    {
+      "name": "Talence Centre-Forum",
+      "type": "TRAM",
+      "lat": 44.812,
+      "lng": -0.591,
+      "pop500": 3496,
+      "pop800": 9841
+    },
+    {
+      "name": "Tauzia",
+      "type": "TRAM",
+      "lat": 44.8291,
+      "lng": -0.5585,
+      "pop500": 4858,
+      "pop800": 11862
+    },
+    {
+      "name": "Terres Neuves",
+      "type": "TRAM",
+      "lat": 44.8153,
+      "lng": -0.5509,
+      "pop500": 4435,
+      "pop800": 9472
+    },
+    {
+      "name": "Thiers-Benauge",
+      "type": "TRAM",
+      "lat": 44.8458,
+      "lng": -0.5508,
+      "pop500": 3978,
+      "pop800": 10455
+    },
+    {
+      "name": "Unitec",
+      "type": "TRAM",
+      "lat": 44.7963,
+      "lng": -0.6216,
+      "pop500": 475,
+      "pop800": 3305
+    },
+    {
+      "name": "Victoire",
+      "type": "TRAM",
+      "lat": 44.8312,
+      "lng": -0.573,
+      "pop500": 9627,
+      "pop800": 24698
     },
     {
       "name": "Villenave Centre-Pont De La Maye",
       "type": "TRAM",
-      "lat": 44.7824,
+      "lat": 44.7822,
       "lng": -0.5662,
-      "pop500": 3276,
-      "pop800": 7018
-    },
-    {
-      "name": "Cantinolle",
-      "type": "TRAM",
-      "lat": 44.892,
-      "lng": -0.6675,
-      "pop500": 215,
-      "pop800": 1112
-    },
-    {
-      "name": "Sainte-Germaine",
-      "type": "TRAM",
-      "lat": 44.8717,
-      "lng": -0.6146,
-      "pop500": 2793,
-      "pop800": 7852
-    },
-    {
-      "name": "Sainte-Germaine",
-      "type": "TRAM",
-      "lat": 44.8714,
-      "lng": -0.6143,
-      "pop500": 3052,
-      "pop800": 7866
-    },
-    {
-      "name": "Croix De Seguey",
-      "type": "TRAM",
-      "lat": 44.8501,
-      "lng": -0.586,
-      "pop500": 8387,
-      "pop800": 19640
-    },
-    {
-      "name": "Champ De Courses - Treulon",
-      "type": "TRAM",
-      "lat": 44.8763,
-      "lng": -0.6215,
-      "pop500": 2549,
-      "pop800": 5770
+      "pop500": 3165,
+      "pop800": 6975
     },
     {
       "name": "Villenave Pyrénées",
       "type": "TRAM",
-      "lat": 44.774,
-      "lng": -0.5648,
-      "pop500": 469,
-      "pop800": 2748
+      "lat": 44.7742,
+      "lng": -0.5649,
+      "pop500": 439,
+      "pop800": 2708
     }
   ]
 }
