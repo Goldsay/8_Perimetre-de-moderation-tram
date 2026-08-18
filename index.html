@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Périmètres de modération - Bordeaux Métropole</title>
+  <title>Périmètre autour des arrêts de tram - Bordeaux Métropole</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
@@ -27,10 +27,12 @@
       padding: 15px 20px;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      border-left: 5px solid #2c3e50;
+      border-left: 6px solid #2c3e50;
     }
-    .kpi-card.blue { border-left-color: #1e88e5; }
-    .kpi-card.red { border-left-color: #e53935; }
+    /* Couleurs de Bordeaux Métropole */
+    .kpi-card.green { border-left-color: #009640; }
+    .kpi-card.yellow { border-left-color: #FFD100; }
+    
     .kpi-title { font-size: 0.9em; color: #666; text-transform: uppercase; font-weight: bold; }
     .kpi-value { font-size: 1.8em; font-weight: bold; color: #2c3e50; margin-top: 5px; }
 
@@ -50,6 +52,16 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       margin-bottom: 25px;
     }
+
+    #error-message {
+      display: none;
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #f5c6cb;
+    }
     
     .table-container {
       background: #fff;
@@ -67,16 +79,18 @@
 </head>
 <body>
 
-  <h1>Carte et périmètres de modération</h1>
+  <h1>Périmètre autour des arrêts de tram</h1>
   
-  <!-- KPI Totaux dédoublonnés -->
+  <div id="error-message"></div>
+
+  <!-- KPI Totaux -->
   <div class="kpi-container">
-    <div class="kpi-card blue">
-      <div class="kpi-title">Population unique couverte (Zone 500 m)</div>
+    <div class="kpi-card green">
+      <div class="kpi-title">Population totale couverte (Zone 500 m)</div>
       <div class="kpi-value" id="total-500">Chargement...</div>
     </div>
-    <div class="kpi-card red">
-      <div class="kpi-title">Population unique couverte (Zone 800 m)</div>
+    <div class="kpi-card yellow">
+      <div class="kpi-title">Population totale couverte (Zone 800 m)</div>
       <div class="kpi-value" id="total-800">Chargement...</div>
     </div>
   </div>
@@ -127,7 +141,12 @@
     const tableBody = document.getElementById('data-table');
 
     fetch('stations_data.json')
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Erreur HTTP " + response.status + " : Impossible de lire stations_data.json");
+        }
+        return response.json();
+      })
       .then(data => {
         // 1. Affichage des totaux dédoublonnés
         const total500Formatted = data.totals.pop500_total.toLocaleString('fr-FR') + ' hab.';
@@ -145,15 +164,23 @@
           bounds.push([station.lat, station.lng]);
 
           L.marker([station.lat, station.lng])
-            .bindPopup(`<b>${station.name}</b><br>Type : ${station.type}`)
+            .bindPopup(`<b>${station.name}</b><br>Type :${station.type}`)
             .addTo(map);
 
+          // Rayon 500m : Vert Bordeaux Métropole (#009640)
           const c500 = L.circle([station.lat, station.lng], {
-            color: '#1e88e5', fillColor: '#1e88e5', fillOpacity: 0.15, radius: 500
+            color: '#009640',
+            fillColor: '#009640',
+            fillOpacity: 0.2,
+            radius: 500
           }).addTo(map);
 
+          // Rayon 800m : Jaune Bordeaux Métropole (#FFD100)
           const c800 = L.circle([station.lat, station.lng], {
-            color: '#e53935', fillColor: '#e53935', fillOpacity: 0.08, radius: 800
+            color: '#D4A000', // Bordure légèrement plus foncée pour être lisible
+            fillColor: '#FFD100',
+            fillOpacity: 0.15,
+            radius: 800
           }).addTo(map);
 
           circleLayers.push({ layer: c500, radius: 500 });
@@ -169,6 +196,14 @@
         });
 
         if (bounds.length > 0) map.fitBounds(bounds);
+      })
+      .catch(error => {
+        console.error("Erreur de chargement :", error);
+        const errDiv = document.getElementById('error-message');
+        errDiv.style.display = 'block';
+        errDiv.innerHTML = `<strong>Attention :</strong> Impossible de charger les données.<br>
+          • Si vous ouvrez le fichier en local (double-clic sur index.html), le navigateur bloque la lecture de <code>stations_data.json</code> par sécurité.<br>
+          • <strong>Solution :</strong> Testez la page via GitHub Pages ou lancez un serveur local (ex: extension VS Code <em>Live Server</em> ou commande <code>python -m http.server</code>).`;
       });
 
     function updateBufferVisibility() {
