@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Périmètres de modération - Bordeaux Métropole</title>
+
+  <!-- CSS Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .controls {
+      margin-bottom: 15px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    select {
+      padding: 6px 12px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+    }
+    .table-container {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f6f8;
+      color: #2c3e50;
+    }
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Carte et périmètres de modération</h1>
+  
+  <div class="controls">
+    <label for="radius-select">Affichage des périmètres :</label>
+    <select id="radius-select" onchange="updateBufferVisibility()">
+      <option value="both">500 m et 800 m</option>
+      <option value="500">500 m uniquement</option>
+      <option value="800">800 m uniquement</option>
+    </select>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="table-container">
+    <h2>Estimation de la population par arrêt (Données Filosofi / INSEE)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nom de l'arrêt</th>
+          <th>Type</th>
+          <th>Population (Zone 500 m)</th>
+          <th>Population (Zone 800 m)</th>
+        </tr>
+      </thead>
+      <tbody id="data-table">
+        <!-- Rempli dynamiquement -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- JS Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    // Initialisation de la carte centrée sur Bordeaux Métropole
+    const map = L.map('map').setView([44.837789, -0.57918], 12);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    const circleLayers = [];
+    const tableBody = document.getElementById('data-table');
+
+    // Chargement du fichier JSON généré par R
+    fetch('stations_data.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Impossible de charger stations_data.json");
+        }
+        return response.json();
+      })
+      .then(stations => {
+        const bounds = [];
+
+        stations.forEach(station => {
+          bounds.push([station.lat, station.lng]);
+
+          // Marqueur de la station
+          L.marker([station.lat, station.lng])
+            .bindPopup(`<b>${station.name}</b><br>Type : ${station.type}`)
+            .addTo(map);
+
+          // Périmètre 500m (Bleu)
+          const c500 = L.circle([station.lat, station.lng], {
+            color: '#1e88e5',
+            fillColor: '#1e88e5',
+            fillOpacity: 0.15,
+            radius: 500
+          }).addTo(map);
+
+          // Périmètre 800m (Rouge)
+          const c800 = L.circle([station.lat, station.lng], {
+            color: '#e53935',
+            fillColor: '#e53935',
+            fillOpacity: 0.08,
+            radius: 800
+          }).addTo(map);
+
+          circleLayers.push({ layer: c500, radius: 500 });
+          circleLayers.push({ layer: c800, radius: 800 });
+
+          // Ajout de la ligne dans le tableau
+          const row = `<tr>
+            <td><strong>${station.name}</strong></td>
+            <td>${station.type}</td>
+            <td>${station.pop500.toLocaleString('fr-FR')} hab.</td>
+            <td>${station.pop800.toLocaleString('fr-FR')} hab.</td>
+          </tr>`;
+          tableBody.innerHTML += row;
+        });
+
+        // Ajuste le zoom pour englober tous les points
+        if (bounds.length > 0) {
+          map.fitBounds(bounds);
+        }
+      })
+      .catch(error => {
+        console.error("Erreur :", error);
+        tableBody.innerHTML = `<tr><td colspan="4" style="color:red;">Erreur lors du chargement des données. Assurez-vous que <code>stations_data.json</code> est présent.</td></tr>`;
+      });
+
+    // Masquer/Afficher les cercles selon le menu déroulant
+    function updateBufferVisibility() {
+      const selectedValue = document.getElementById('radius-select').value;
+      
+      circleLayers.forEach(item => {
+        if (selectedValue === 'both' || parseInt(selectedValue) === item.radius) {
+          map.addLayer(item.layer);
+        } else {
+          map.removeLayer(item.layer);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
